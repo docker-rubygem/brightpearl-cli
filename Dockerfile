@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.9.0
+ENV VERSION=1.4.0
 
 RUN gem install brightpearl-cli --version ${VERSION} --no-format-exec
 
